@@ -9,7 +9,7 @@ import re
 class CareerjetSpider(scrapy.Spider):
     name = 'careerjet'
     domain = 'https://www.careerjet.se'
-    scraper_api_url = 'http://api.scraperapi.com/?api_key=********************************&url='
+    scraper_api_url = 'http://api.scraperapi.com/?api_key=************************&url='
 
     def __init__(self):
         self.translator = Translator()
